@@ -1,0 +1,41 @@
+{
+  "kind": "collectionType",
+  "collectionName": "tests",
+  "info": {
+    "singularName": "test",
+    "pluralName": "tests",
+    "displayName": "test"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Ph": {
+      "type": "boolean"
+    },
+    "white": {
+      "type": "boolean"
+    },
+    "Best": {
+      "type": "boolean"
+    },
+    "Post": {
+      "type": "text",
+      "minLength": 300
+    },
+    "Files": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    },
+    "Title": {
+      "type": "string"
+    }
+  }
+}

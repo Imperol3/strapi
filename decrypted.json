@@ -1,0 +1,1 @@
+n8n export:credentials --all --decrypted --output=credentials/decrypted.json

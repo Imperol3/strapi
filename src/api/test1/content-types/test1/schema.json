@@ -1,0 +1,78 @@
+{
+  "kind": "collectionType",
+  "collectionName": "test1s",
+  "info": {
+    "singularName": "test1",
+    "pluralName": "test1s",
+    "displayName": "imperol",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "user": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "admin::user"
+    },
+    "Post": {
+      "type": "text"
+    },
+    "media": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "Files": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "AiContent": {
+      "type": "blocks"
+    },
+    "Pages": {
+      "type": "enumeration",
+      "enum": [
+        "Phoenix",
+        "White",
+        "Best"
+      ]
+    },
+    "Date": {
+      "type": "datetime"
+    },
+    "Title": {
+      "type": "string"
+    },
+    "Platform": {
+      "type": "boolean"
+    },
+    "White": {
+      "type": "boolean"
+    },
+    "Ph": {
+      "type": "boolean"
+    },
+    "Best": {
+      "type": "boolean"
+    },
+    "Imperolt": {
+      "type": "boolean"
+    }
+  }
+}
